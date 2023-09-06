@@ -1,0 +1,165 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+.navbar {
+  background-color:rgba(199, 185, 110, 0.46) ;
+  height: 78px;
+  border-radius: 999px;
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+ 
+
+}
+.btn{
+    background-color: rgba(199, 185, 110, 0.46);
+    background: none;
+    border : none ;
+    cursor: pointer;
+
+}
+.btn2 {
+  background-color: rgba(199, 185, 110, 0.46);
+  background: none;
+  border : none ;
+  cursor: pointer;
+  display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+font-size: 20px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.btn3 {
+  background-color: black;
+  border-radius: 999px;
+  color: var(--white, #FFF);
+font-size: 16px;
+font-family: Abril Fatface;
+font-style: normal;
+letter-spacing: -0.8px;
+text-transform: capitalize;
+}
+
+.grid-container {
+  justify-content: space-around;
+    display: grid;
+    grid-auto-rows:minmax(200px,auto);
+    grid-template-columns:repeat(5,300px);
+    grid-gap:30px 5px;
+    background-color:white;
+    padding:3px;
+    justify-items: center;
+    align-items: center;
+    position:absolute;
+    top: 30%;
+  
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    color: var(--main-colors-gray-4, #292929);
+    text-align: justify;
+    font-size: 16px;
+    font-family: Abril Fatface;
+    font-style: normal;
+    font-weight: 400;
+    height: 100%;
+    letter-spacing: -0.8px;
+    text-transform: capitalize;
+    
+  }
+
+
+.card{
+    display:flex;
+    width: 220px;
+    height: 250px;
+    padding: 20px 0px;
+    flex-direction: column;
+    flex-shrink: 0;
+    background: #DEA5617A;
+    border-radius: 18px;
+align-items:center;
+gap: 14px;
+}
+
+
+.image{
+    width: 80%;
+    height: 70%;
+    border-radius: 18px;
+}
+
+.content-container{
+    height: 6%;
+    width: 80%;
+    flex-direction: row;
+    font-size: 25px;
+    font-family: Abril Fatface;
+font-style: normal;
+font-weight: 400;
+line-height: -20%;
+letter-spacing: -0.8px;
+text-transform: capitalize;
+line-height: -0.8px;
+
+}
+
+.card-title{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 90%;
+    height: 70%;
+}
+
+.price {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 0.7px;
+    color: #9F9F9F;
+
+}
+
+
+.item1 { grid-area: 1 / 1 / 2 / 2; }
+.item2 { grid-area: 1 / 2 / 2 / 3; }
+.item3 { grid-area: 1 / 3 / 2 / 4; }
+.item4 { grid-area: 2 / 1 / 3 / 2; }
+.item5 { grid-area: 2 / 2 / 3 / 3; }
+.item6 { grid-area: 2 / 3 / 3 / 4; }
+
+
+
+.menue {
+width: 1200px;
+height: 500px;
+padding: 20px 20px;
+border-radius: 14px;
+background: rgba(222, 165, 97, 0.48);
+justify-content: space-around;
+position:absolute;
+left: 50%;
+margin-top: -220px;
+margin-left: -630px;
+top: 50%;
+}
+.cod {
+  position:absolute;
+left: 50%;
+margin-top: -25px;
+margin-left: 10px;
+top: 50%;
+font-size: 23px;
+font-family: Abril Fatface;
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: -0.8px;
+text-transform: capitalize;
+}
